@@ -1,0 +1,12 @@
+[
+  { "id": 1, "nome": "Pastel de queijo", "descricao": "Massa crocante com muito queijo", "preco": 8, "categoria": "salgados", "disponivel": true },
+  { "id": 2, "nome": "Pastel de carne", "descricao": "Carne moída temperada", "preco": 9, "categoria": "salgados", "disponivel": true },
+  { "id": 3, "nome": "Coxinha", "descricao": "Frango com requeijão", "preco": 7, "categoria": "salgados", "disponivel": false },
+  { "id": 4, "nome": "X-salada", "descricao": "Hambúrguer, queijo, alface e tomate", "preco": 15, "categoria": "lanches", "disponivel": true },
+  { "id": 5, "nome": "X-bacon", "descricao": "Hambúrguer, queijo e bacon crocante", "preco": 18, "categoria": "lanches", "disponivel": true },
+  { "id": 6, "nome": "Misto quente", "descricao": "Presunto e queijo na chapa", "preco": 10, "categoria": "lanches", "disponivel": true },
+  { "id": 7, "nome": "Suco de laranja", "descricao": "Natural, copo de 400 ml", "preco": 6, "categoria": "bebidas", "disponivel": true },
+  { "id": 8, "nome": "Refrigerante", "descricao": "Lata de 350 ml", "preco": 5, "categoria": "bebidas", "disponivel": true },
+  { "id": 9, "nome": "Açaí", "descricao": "Copo de 300 ml com granola", "preco": 14, "categoria": "sobremesas", "disponivel": false },
+  { "id": 10, "nome": "Brigadeiro de colher", "descricao": "No copinho, com granulado", "preco": 4, "categoria": "sobremesas", "disponivel": true }
+]

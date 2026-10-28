@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanchonete Bom Bocado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Lanchonete Bom Bocado</h1>
+    <p>Peça pelo site e retire no balcão.</p>
+  </header>
+
+  <main class="pagina">
+    <section class="cardapio">
+      <div class="cardapio__topo">
+        <h2>Cardápio</h2>
+        <select id="filtro">
+          <option value="todas">Todas as categorias</option>
+          <option value="salgados">Salgados</option>
+          <option value="lanches">Lanches</option>
+          <option value="bebidas">Bebidas</option>
+          <option value="sobremesas">Sobremesas</option>
+        </select>
+      </div>
+      <p id="aviso" class="aviso"></p>
+      <div id="cardapio" class="cardapio__itens"></div>
+    </section>
+
+    <aside class="pedido">
+      <h2>Seu pedido</h2>
+      <ul id="lista-pedido" class="pedido__lista"></ul>
+      <p class="pedido__total">Total: <strong id="total">R$ 0,00</strong></p>
+      <button id="finalizar" class="botao">Finalizar pedido</button>
+      <p id="status-pedido" class="pedido__status"></p>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
